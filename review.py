@@ -18,7 +18,6 @@ class Review:
         self.start = start_ts
         self.end_ts = end_ts
         self.total = end_ts- start_ts
-        pass
 
     def edit_content(self,new_content: str):
         self.content = new_content
